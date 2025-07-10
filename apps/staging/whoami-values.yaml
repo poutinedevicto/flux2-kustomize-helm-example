@@ -3,4 +3,3 @@ kind: HelmRelease
 metadata:
   name: whoami
   namespace: whoami_flux
-

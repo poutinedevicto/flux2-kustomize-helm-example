@@ -10,7 +10,7 @@ patches:
 ---
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-namespace: podinfo
+namespace: whoami_flux
 resources:
   - ../base/whoami
 patches:
