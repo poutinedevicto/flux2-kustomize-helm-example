@@ -1,5 +1,18 @@
+# NOTE copie de base/whoami/release.yaml
 apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
   name: whoami
   namespace: whoami-flux
+spec:
+  releaseName: whoami
+  chart:
+    spec:
+      chart: whoami
+      sourceRef:
+        kind: HelmRepository
+        name: whoami
+  interval: 50m
+  install:
+    remediation:
+      retries: 3
