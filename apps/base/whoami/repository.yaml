@@ -5,4 +5,4 @@ metadata:
   namespace: whoami-flux
 spec:
   interval: 5m
-  url: https://helm.traefik.io/traefik
+  url: https://helm.traefik.io/traefik/
