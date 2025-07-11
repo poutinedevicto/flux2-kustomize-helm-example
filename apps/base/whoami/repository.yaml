@@ -1,8 +1,8 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: HelmRepository
 metadata:
-  name: whoami
+  name: cowboysysop
   namespace: whoami-flux
 spec:
   interval: 5m
-  url: https://helm.traefik.io/traefik/
+  url: https://cowboysysop.github.io/charts/
