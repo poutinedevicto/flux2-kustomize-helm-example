@@ -7,4 +7,5 @@ patches:
   - path: whoami-values.yaml
     target:
       kind: HelmRelease
+      name: whoami6
 

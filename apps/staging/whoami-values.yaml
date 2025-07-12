@@ -2,16 +2,9 @@
 apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
-  name: whoami7
-  namespace: whoami-flux
+  name: whoami6
 spec:
-  chart:
-    spec:
-      chart: whoami
-      sourceRef:
-        kind: HelmRepository
-        name: cowboysysop
-  interval: 50m
+  interval: 30m
   install:
     remediation:
-      retries: 3
+      retries: 2

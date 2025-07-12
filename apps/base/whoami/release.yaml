@@ -9,7 +9,7 @@ spec:
       chart: whoami
       sourceRef:
         kind: HelmRepository
-        name: whoami
+        name: cowboysysop
   interval: 50m
   install:
     remediation:
